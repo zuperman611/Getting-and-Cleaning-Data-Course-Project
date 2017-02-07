@@ -52,18 +52,18 @@ The R script called run_analysis.R does the following:
 ##VARIABLES DESCRIPTION:
 ========================
 
-Subject_ID					2
-						Identifier of the subject who carried out the experiment
-							0..30 .Unique identifier of the subject
+Subject_ID<pre><pre><pre><pre><pre>2
+<pre><pre><pre><pre><pre><pre>Identifier of the subject who carried out the experiment
+<pre><pre><pre><pre><pre><pre><pre>0..30 .Unique identifier of the subject
 								
-Activity					18
-						Names of the activities carried out for the experiment
-							WALKING
-							WALKING_UPSTAIRS
-							WALKING_DOWNSTAIRS
-							SITTING
-							STANDING
-							LAYING
+Activity<pre><pre><pre><pre><pre>18
+<pre><pre><pre><pre><pre><pre>Names of the activities carried out for the experiment
+<pre><pre><pre><pre><pre><pre><pre>WALKING
+<pre><pre><pre><pre><pre><pre><pre>WALKING_UPSTAIRS
+<pre><pre><pre><pre><pre><pre><pre>WALKING_DOWNSTAIRS
+<pre><pre><pre><pre><pre><pre><pre>SITTING
+<pre><pre><pre><pre><pre><pre><pre>STANDING
+<pre><pre><pre><pre><pre><pre><pre>LAYING
 				
 tBodyAcc-mean()-X			18 
 						Mean of the time domain body accelerometer for the X axis direction
