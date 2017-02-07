@@ -16,34 +16,34 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
 
 The R script called run_analysis.R does the following:
 
-0. Prepare the data set for this assignment: 
+0.Prepare the data set for this assignment: 
 - Download the data set
 - Unzip the data set to be available for loading the needed files
 	
-1. Merges the training and the test sets to create one data set.
+1.Merges the training and the test sets to create one data set.
 - Load the train files: the subject ID of the train, the activity ID of the train, and the train set 
 - Merge the training files into one data set with the first column the subject ID of the training, the  second column with the activity ID of the training, and the following columns with the training set
 - Load the test files: the subject ID of the test, the activity ID of the test, and the test set 
 - Merge the test files into one data set with the first column the subject ID of the test, the  second column with the activity ID of the test, and the following columns with the test set  
 - Create one data set with the merged training and test sets
 
-2. Extracts only the measurements on the mean and standard deviation for each measurement.
+2.Extracts only the measurements on the mean and standard deviation for each measurement.
 - Load the features file wich contains the names of all the measurement
 - Extract the names of all the measurement
 - Assign descriptive names to all the variables\columns of the merged data set
 - Extract the column indices for only the mean and standard deviation for each measurement and making sure that the meanFreq is not considered
 - Extract the subject ID column, the activity ID column, and only the columns with the measurements on the mean and standard deviation for each measurement.
 
-3. Uses descriptive activity names to name the activities in the data set
+3.Uses descriptive activity names to name the activities in the data set
 - Load the activity_labels file wich contains the names of all the activities
 - Extract the names of all the activities
 - Update the activity IDs in the data set with the coresponding descriptive activity names
 
-4. Appropriately labels the data set with descriptive variable names.
+4.Appropriately labels the data set with descriptive variable names.
 - Rename the column 'Activity_ID' to 'Activity'
 - The other descriptive variable names were already assigned at step 2
 
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 - Simlify the name of the data set from 'extracted_mean_std' to just 'data'
 - Create the tidy data set with the average of each variable for each activity and each subject
 - Save the tidy data set as 'data_tidy.txt'
