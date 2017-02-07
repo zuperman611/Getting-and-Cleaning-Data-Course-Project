@@ -30,13 +30,13 @@ You should create one R script called run_analysis.R that does the following.
 ##The project submission includes the following files:
 ======================================================
 
-- 'README.md': The file explaining the analysis files.
+- 'README.md': The file explaining the project description and the project submission files from this repository.
 
-- 'CodeBook.md': The file describing the data, the data transformation steps performed to clean up the data and the variables.
+- 'CodeBook.md': The file describing the data, the data transformation steps performed to clean up the data, and the variables.
 
 - 'run_analysis.R': The R script performing the analysis required in the project description section.
 
-- 'data_tidy.txt': The tidy data set resulted after running the R script 'run_analysis.R'.
+- 'data_tidy.txt': The tidy data set output after running the R script 'run_analysis.R'.
 
 
 ##License:
