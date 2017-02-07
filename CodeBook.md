@@ -1,6 +1,6 @@
 #DATA TIDY - Code Book
-===
 
+===
 ##DATA DESCRIPTION: 
 ===
 
@@ -52,338 +52,338 @@ The R script called run_analysis.R does the following:
 ##VARIABLES DESCRIPTION(!please use the RAW view for a better observation): 
 ===
 
-Subject_ID					2
-						Identifier of the subject who carried out the experiment
-							0..30 .Unique identifier of the subject
+Subject_ID			2
+			Identifier of the subject who carried out the experiment
+				0..30 .Unique identifier of the subject
 								
-Activity					18
-						Names of the activities carried out for the experiment
-							WALKING
-							WALKING_UPSTAIRS
-							WALKING_DOWNSTAIRS
-							SITTING
-							STANDING
-							LAYING
+Activity			18
+			Names of the activities carried out for the experiment
+				WALKING
+				WALKING_UPSTAIRS
+				WALKING_DOWNSTAIRS
+				SITTING
+				STANDING
+				LAYING
 				
-tBodyAcc-mean()-X			18 
-						Mean of the time domain body accelerometer for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+tBodyAcc-mean()-X		18 
+			Mean of the time domain body accelerometer for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 							
-tBodyAcc-mean()-Y			18 
-						Mean of the time domain body accelerometer for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+tBodyAcc-mean()-Y		18 
+			Mean of the time domain body accelerometer for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 							
-tBodyAcc-mean()-Z			18 
-						Mean of the time domain body accelerometer for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+tBodyAcc-mean()-Z		18 
+			Mean of the time domain body accelerometer for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 							
-tBodyAcc-std()-X			18 
-						Standard deviation of the time domain body accelerometer for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+tBodyAcc-std()-X		18 
+			Standard deviation of the time domain body accelerometer for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
            
-tBodyAcc-std()-Y			18 
-						Standard deviation of the time domain body accelerometer for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+tBodyAcc-std()-Y		18 
+			Standard deviation of the time domain body accelerometer for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
                        
-tBodyAcc-std()-Z			18 
-						Standard deviation of the time domain body accelerometer for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+tBodyAcc-std()-Z		18 
+			Standard deviation of the time domain body accelerometer for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
                        
 tGravityAcc-mean()-X		18 
-						Mean of the time domain gravity accelerometer for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the time domain gravity accelerometer for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
        
 tGravityAcc-mean()-Y		18 
-						Mean of the time domain gravity accelerometer for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the time domain gravity accelerometer for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
               
 tGravityAcc-mean()-Z		18 
-						Mean of the time domain gravity accelerometer for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the time domain gravity accelerometer for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
                
 tGravityAcc-std()-X  		18 
-						Standard deviation of the time domain gravity accelerometer for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the time domain gravity accelerometer for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
                      
 tGravityAcc-std()-Y  		18 
-						Standard deviation of the time domain gravity accelerometer for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the time domain gravity accelerometer for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
                              
 tGravityAcc-std()-Z  		18 
-						Standard deviation of the time domain gravity accelerometer for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the time domain gravity accelerometer for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
                              
 tBodyAccJerk-mean()-X		18 
-						Mean of the time domain body accelerometer jerk for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the time domain body accelerometer jerk for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 			    
 tBodyAccJerk-mean()-Y		18 
-						Mean of the time domain body accelerometer jerk for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the time domain body accelerometer jerk for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 			           
 tBodyAccJerk-mean()-Z		18 
-						Mean of the time domain body accelerometer jerk for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the time domain body accelerometer jerk for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 			           
 tBodyAccJerk-std()-X		18 
-						Standard deviation of the time domain body accelerometer jerk for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the time domain body accelerometer jerk for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 			           
 tBodyAccJerk-std()-Y		18 
-						Standard deviation of the time domain body accelerometer jerk for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the time domain body accelerometer jerk for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 			                 
 tBodyAccJerk-std()-Z		18 
-						Standard deviation of the time domain body accelerometer jerk for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the time domain body accelerometer jerk for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 			                 
-tBodyGyro-mean()-X			18 
-						Mean of the time domain body gyroscope for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+tBodyGyro-mean()-X		18 
+			Mean of the time domain body gyroscope for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 				        
-tBodyGyro-mean()-Y			18 
-						Mean of the time domain body gyroscope for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+tBodyGyro-mean()-Y		18 
+			Mean of the time domain body gyroscope for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 				            
-tBodyGyro-mean()-Z			18 
-						Mean of the time domain body gyroscope for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+tBodyGyro-mean()-Z		18 
+			Mean of the time domain body gyroscope for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 				            
-tBodyGyro-std()-X			18 
-						Standard deviation of the time domain body gyroscope for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+tBodyGyro-std()-X		18 
+			Standard deviation of the time domain body gyroscope for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 				            
-tBodyGyro-std()-Y 			18 
-						Standard deviation of the time domain body gyroscope for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+tBodyGyro-std()-Y 		18 
+			Standard deviation of the time domain body gyroscope for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 				           
-tBodyGyro-std()-Z			18 
-						Standard deviation of the time domain body gyroscope for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+tBodyGyro-std()-Z		18 
+			Standard deviation of the time domain body gyroscope for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 				            
 tBodyGyroJerk-mean()-X		18 
-						Mean of the time domain body gyroscope jerk for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the time domain body gyroscope jerk for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 				      
 tBodyGyroJerk-mean()-Y		18 
-						Mean of the time domain body gyroscope jerk for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the time domain body gyroscope jerk for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 				            
 tBodyGyroJerk-mean()-Z		18 
-						Mean of the time domain body gyroscope jerk for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the time domain body gyroscope jerk for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 				            
 tBodyGyroJerk-std()-X		18 
-						Standard deviation of the time domain body gyroscope jerk for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the time domain body gyroscope jerk for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 				 
 tBodyGyroJerk-std()-Y		18 
-						Standard deviation of the time domain body gyroscope jerk for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the time domain body gyroscope jerk for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 				        
 tBodyGyroJerk-std()-Z		18 
-						Standard deviation of the time domain body gyroscope jerk for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the time domain body gyroscope jerk for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 				        
-tBodyAccMag-mean()			18 
-						Mean of the time domain body accelerometer magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit         
+tBodyAccMag-mean()		18 
+			Mean of the time domain body accelerometer magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit         
 							
-tBodyAccMag-std()			18 
-						Standard deviation of the time domain body accelerometer magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit      
+tBodyAccMag-std()		18 
+			Standard deviation of the time domain body accelerometer magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit      
 							
 tGravityAccMag-mean()		18 
-						Mean of the time domain gravity accelerometer magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the time domain gravity accelerometer magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
                       
 tGravityAccMag-std()		18 
-						Standard deviation of the time domain gravity accelerometer magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the time domain gravity accelerometer magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
                              
 tBodyAccJerkMag-mean()		18 
-						Mean of the time domain body accelerometer jerk magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit   
+			Mean of the time domain body accelerometer jerk magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit   
 							
 tBodyAccJerkMag-std()		18 
-						Standard deviation of the time domain body accelerometer jerk magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit   
+			Standard deviation of the time domain body accelerometer jerk magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit   
 					       
-tBodyGyroMag-mean()			18 
-						Mean of the time domain body gyroscope magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+tBodyGyroMag-mean()		18 
+			Mean of the time domain body gyroscope magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 							
-tBodyGyroMag-std()			18 
-						Standard deviation of the time domain body gyroscope magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+tBodyGyroMag-std()		18 
+			Standard deviation of the time domain body gyroscope magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 					          
 tBodyGyroJerkMag-mean()		18 
-						Mean of the time domain body gyroscope jerk magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the time domain body gyroscope jerk magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 					     
 tBodyGyroJerkMag-std		18 
-						Standard deviation of the time domain body gyroscope jerk magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the time domain body gyroscope jerk magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 				
-fBodyAcc-mean()-X			18 
-						Mean of the frequency domain body accelerometer for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+fBodyAcc-mean()-X		18 
+			Mean of the frequency domain body accelerometer for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 							
-fBodyAcc-mean()-Y			18 
-						Mean of the frequency domain body accelerometer for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+fBodyAcc-mean()-Y		18 
+			Mean of the frequency domain body accelerometer for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 							
-fBodyAcc-mean()-Z			18 
-						Mean of the frequency domain body accelerometer for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+fBodyAcc-mean()-Z		18 
+			Mean of the frequency domain body accelerometer for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 							
-fBodyAcc-std()-X			18 
-						Standard deviation of the frequency domain body accelerometer for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+fBodyAcc-std()-X		18 
+			Standard deviation of the frequency domain body accelerometer for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
            
-fBodyAcc-std()-Y			18 
-						Standard deviation of the frequency domain body accelerometer for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+fBodyAcc-std()-Y		18 
+			Standard deviation of the frequency domain body accelerometer for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
                        
-fBodyAcc-std()-Z			18 
-						Standard deviation of the frequency domain body accelerometer for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+fBodyAcc-std()-Z		18 
+			Standard deviation of the frequency domain body accelerometer for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
                        
 fGravityAcc-mean()-X		18 
-						Mean of the frequency domain gravity accelerometer for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the frequency domain gravity accelerometer for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
        
 fGravityAcc-mean()-Y		18 
-						Mean of the frequency domain gravity accelerometer for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the frequency domain gravity accelerometer for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
               
 fGravityAcc-mean()-Z		18 
-						Mean of the frequency domain gravity accelerometer for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the frequency domain gravity accelerometer for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
                
 fGravityAcc-std()-X  		18 
-						Standard deviation of the frequency domain gravity accelerometer for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the frequency domain gravity accelerometer for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
                      
 fGravityAcc-std()-Y  		18 
-						Standard deviation of the frequency domain gravity accelerometer for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the frequency domain gravity accelerometer for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
                              
 fGravityAcc-std()-Z  		18 
-						Standard deviation of the frequency domain gravity accelerometer for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the frequency domain gravity accelerometer for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
                              
 fBodyAccJerk-mean()-X		18 
-						Mean of the frequency domain body accelerometer jerk for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the frequency domain body accelerometer jerk for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 			    
 fBodyAccJerk-mean()-Y		18 
-						Mean of the frequency domain body accelerometer jerk for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the frequency domain body accelerometer jerk for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 			           
 fBodyAccJerk-mean()-Z		18 
-						Mean of the frequency domain body accelerometer jerk for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the frequency domain body accelerometer jerk for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 			           
 fBodyAccJerk-std()-X		18 
-						Standard deviation of the frequency domain body accelerometer jerk for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the frequency domain body accelerometer jerk for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 			           
 fBodyAccJerk-std()-Y		18 
-						Standard deviation of the frequency domain body accelerometer jerk for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the frequency domain body accelerometer jerk for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 			                 
 fBodyAccJerk-std()-Z		18 
-						Standard deviation of the frequency domain body accelerometer jerk for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the frequency domain body accelerometer jerk for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 			                 
-fBodyGyro-mean()-X			18 
-						Mean of the frequency domain body gyroscope for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+fBodyGyro-mean()-X		18 
+			Mean of the frequency domain body gyroscope for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 				        
-fBodyGyro-mean()-Y			18 
-						Mean of the frequency domain body gyroscope for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+fBodyGyro-mean()-Y		18 
+			Mean of the frequency domain body gyroscope for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 				            
-fBodyGyro-mean()-Z			18 
-						Mean of the frequency domain body gyroscope for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+fBodyGyro-mean()-Z		18 
+			Mean of the frequency domain body gyroscope for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 				            
-fBodyGyro-std()-X			18 
-						Standard deviation of the frequency domain body gyroscope for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+fBodyGyro-std()-X		18 
+			Standard deviation of the frequency domain body gyroscope for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 				            
-fBodyGyro-std()-Y 			18 
-						Standard deviation of the frequency domain body gyroscope for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+fBodyGyro-std()-Y 		18 
+			Standard deviation of the frequency domain body gyroscope for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 				           
-fBodyGyro-std()-Z			18 
-						Standard deviation of the frequency domain body gyroscope for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+fBodyGyro-std()-Z		18 
+			Standard deviation of the frequency domain body gyroscope for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 				            
 fBodyGyroJerk-mean()-X		18 
-						Mean of the frequency domain body gyroscope jerk for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the frequency domain body gyroscope jerk for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 				      
 fBodyGyroJerk-mean()-Y		18 
-						Mean of the frequency domain body gyroscope jerk for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the frequency domain body gyroscope jerk for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 				            
 fBodyGyroJerk-mean()-Z		18 
-						Mean of the frequency domain body gyroscope jerk for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the frequency domain body gyroscope jerk for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 				            
 fBodyGyroJerk-std()-X		18 
-						Standard deviation of the frequency domain body gyroscope jerk for the X axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the frequency domain body gyroscope jerk for the X axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 				 
 fBodyGyroJerk-std()-Y		18 
-						Standard deviation of the frequency domain body gyroscope jerk for the Y axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the frequency domain body gyroscope jerk for the Y axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 				        
 fBodyGyroJerk-std()-Z		18 
-						Standard deviation of the frequency domain body gyroscope jerk for the Z axis direction
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the frequency domain body gyroscope jerk for the Z axis direction
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 				        
-fBodyAccMag-mean()			18 
-						Mean of the frequency domain body accelerometer magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit         
+fBodyAccMag-mean()		18 
+			Mean of the frequency domain body accelerometer magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit         
 							
-fBodyAccMag-std()			18 
-						Standard deviation of the frequency domain body accelerometer magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit      
+fBodyAccMag-std()		18 
+			Standard deviation of the frequency domain body accelerometer magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit      
 							
 fGravityAccMag-mean()		18 
-						Mean of the frequency domain gravity accelerometer magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the frequency domain gravity accelerometer magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
                       
 fGravityAccMag-std()		18 
-						Standard deviation of the frequency domain gravity accelerometer magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the frequency domain gravity accelerometer magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
                              
 fBodyAccJerkMag-mean()		18 
-						Mean of the frequency domain body accelerometer jerk magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit   
+			Mean of the frequency domain body accelerometer jerk magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit   
 							
 fBodyAccJerkMag-std()		18 
-						Standard deviation of the frequency domain body accelerometer jerk magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit   
+			Standard deviation of the frequency domain body accelerometer jerk magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit   
 					       
-fBodyGyroMag-mean()			18 
-						Mean of the frequency domain body gyroscope magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+fBodyGyroMag-mean()		18 
+			Mean of the frequency domain body gyroscope magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 							
-fBodyGyroMag-std()			18 
-						Standard deviation of the frequency domain body gyroscope magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+fBodyGyroMag-std()		18 
+			Standard deviation of the frequency domain body gyroscope magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 					          
 fBodyGyroJerkMag-mean()		18 
-						Mean of the frequency domain body gyroscope jerk magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the mean unit
+			Mean of the frequency domain body gyroscope jerk magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the mean unit
 					     
 fBodyGyroJerkMag-std		18 
-						Standard deviation of the frequency domain body gyroscope jerk magnitude
-							-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
+			Standard deviation of the frequency domain body gyroscope jerk magnitude
+				-1.000000000000000..1.000000000000000 .Integer value of the standard deviation unit
 
 ===
 ##License:
