@@ -1,7 +1,7 @@
 #DATA TIDY  - Read Me
 =====================
 
-This GitHub repository explains how all of the scripts work and how they are connected for the Getting and Cleaning Data Course Project.
+This GitHub repository explains how all of the scripts work and how they are connected for the Getting and Cleaning Data Course Project assignment.
 
 ##Project description:
 ======================
